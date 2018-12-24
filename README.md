@@ -1,4 +1,4 @@
-# ANN-Example
+# CNN-Example
 This is an example script to create, train, and test a convolutional neural network.
 
 # Problem Statement
