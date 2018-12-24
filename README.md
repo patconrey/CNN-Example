@@ -15,25 +15,28 @@ The data set was 10,000 images of cats and dogs, divided into 5,000 cats and 5,0
 
 The dataset comes presegmented into a testing set and a training set. Using the `ImageDataGenerator` class from Keras, we were
 able to efficiently load the data into the environment. The directory structure for the dataset is as follows:
-
+```
 /project_root
+    |
     |
     |_ dataset/
         |
         |_ single_prediction/
+        |
         |
         |_ test_set/
         .   |
         .   |_ cats/
         .   |
         .   |_ dogs/
+        .
         |
         |_ training_set/
             |
             |_ cats/
             |
-            |_ dogs/
-
+            |_ dogs/ 
+```
 # General Architecture
 - Input layer: 32 x 32 RGB images
 - Convolutional layer: 32 filters, 3 X 3 kernel, ReLU activation
